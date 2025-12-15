@@ -49,3 +49,77 @@ button:hover {
     color: green;
     font-weight: bold;
 }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* A more modern font */
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 12px; /* Softer corners */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Deeper shadow for depth */
+    text-align: center;
+    width: 450px;
+    max-width: 90%;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+input[type="file"] {
+    display: none; /* Hide the default input button */
+}
+
+/* Style the button like a drag-and-drop zone */
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    border: 3px dashed #3B82F6; /* Use accent color for border */
+    padding: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #eff6ff; /* Light blue background */
+    transition: background-color 0.3s;
+}
+
+.upload-btn-wrapper:hover {
+    background-color: #dbeafe; /* Lighter on hover */
+}
+
+.btn {
+    border: none;
+    color: white;
+    background-color: #3B82F6;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #2563EB; /* Slightly darker blue on hover */
+}
+
+#status {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #10B981; /* Green for success */
+}
+
