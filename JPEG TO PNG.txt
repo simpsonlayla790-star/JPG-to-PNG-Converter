@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple JPG to PNG Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Convert JPG to PNG</h1>
+        <p>Select a .jpg or .jpeg file to convert it in your browser.</p>
+        
+        <input type="file" id="fileInput" accept=".jpg,.jpeg">
+        <button onclick="convertImage()">Convert & Download</button>
+        
+        <div id="status"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
