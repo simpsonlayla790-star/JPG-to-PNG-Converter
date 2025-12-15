@@ -48,4 +48,39 @@
     <script src="script.js"></script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple JPG to PNG Converter</title>
+    <!-- Link to the favicon (save an actual favicon.ico file in the same folder) -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Convert JPG to PNG</h1>
+        <p>Select a .jpg or .jpeg file to convert it in your browser.</p>
+        
+        <div class="upload-btn-wrapper" onclick="document.getElementById('fileInput').click()">
+            Click here or drag a JPG file to upload
+            <input type="file" id="fileInput" accept=".jpg,.jpeg">
+        </div>
+
+        <button class="btn" onclick="convertImage()">Convert & Download</button>
+        
+        <div id="status"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 JPG to PNG Converter. All rights reserved.</p>
+        <!-- Replace 'your@email.com' with your actual email address -->
+        <p><a href="mailto:your@email.com" class="footer-link">Contact</a> | <a href="#" class="footer-link">Privacy Policy</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
 
