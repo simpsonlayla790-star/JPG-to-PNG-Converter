@@ -288,6 +288,80 @@ input[type="file"] {
     font-weight: bold;
     color: #059669; /* Status text matches the button color */
 }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0f2fe; /* Light blue background for softness */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #ffffff; /* Crisp white center card */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Stronger shadow */
+    text-align: center;
+    width: 450px;
+    max-width: 90%;
+}
+
+h1 {
+    color: #059669; /* A professional green color */
+    margin-bottom: 30px; /* More space below the title */
+}
+
+/* We removed the <p> tag, so we don't need styles for it */
+
+input[type="file"] {
+    display: none;
+}
+
+/* Style the button like a drag-and-drop zone */
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    border: 3px dashed #3B82F6; /* Use accent color for border */
+    padding: 50px 30px; /* Taller, prominent drop zone */
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #eff6ff; /* Light blue background */
+    transition: background-color 0.3s;
+    font-weight: bold; /* Make the upload text stand out */
+    color: #3B82F6;
+}
+
+.upload-btn-wrapper:hover {
+    background-color: #dbeafe; /* Lighter on hover */
+}
+
+.btn {
+    border: none;
+    color: white;
+    background-color: #10B981; /* Primary action button green */
+    padding: 12px 24px; /* Larger button */
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 30px; /* More space above button */
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(16, 185, 129, 0.2); /* Subtle button shadow */
+}
+
+.btn:hover {
+    background-color: #059669; /* Darker green on hover */
+}
+
+#status {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #059669; /* Status text matches the button color */
+}
+
 
 
 
