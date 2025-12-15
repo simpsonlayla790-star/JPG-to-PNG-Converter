@@ -61,3 +61,4 @@ function convertImage() {
     // Read the file content as a Data URL string
     reader.readAsDataURL(file);
 }
+
